@@ -1,0 +1,118 @@
+<!-- Welcome Section -->
+<div class="mb-4">
+  <h2 class="fw-bold">Welcome back, Admin</h2>
+  <p class="text-muted">Here's what's happening with your enterprise today.</p>
+</div>
+
+<!-- Stats Cards -->
+<div class="row g-3 mb-4">
+  @for (stat of stats; track stat.label) {
+  <div class="col-12 col-sm-6 col-xl-3">
+    <div class="card shadow-sm rounded-3 border-0 h-100">
+      <div class="card-body d-flex align-items-center">
+        <div
+          class="rounded-3 d-flex align-items-center justify-content-center me-3"
+          [class]="'bg-' + stat.color + ' bg-opacity-10'"
+          style="width: 52px; height: 52px"
+        >
+          <i [class]="stat.icon + ' fs-4 text-' + stat.color"></i>
+        </div>
+        <div>
+          <p class="text-muted small mb-1">{{ stat.label }}</p>
+          <h4 class="fw-bold mb-0">{{ stat.value }}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  }
+</div>
+
+<!-- Quick Links + Activity Table -->
+<div class="row g-3">
+  <!-- Quick Links -->
+  <div class="col-12 col-md-4">
+    <div class="card shadow-sm rounded-3 border-0">
+      <div class="card-header bg-transparent fw-semibold">
+        <i class="bi bi-link-45deg me-2"></i>Quick Links
+      </div>
+      <div class="card-body p-0">
+        <div class="list-group list-group-flush">
+          <a
+            routerLink="/customer"
+            class="list-group-item list-group-item-action d-flex align-items-center"
+          >
+            <i class="bi bi-people-fill text-primary me-3 fs-5"></i>
+            <div>
+              <strong>Customer Management</strong>
+              <small class="d-block text-muted"
+                >View and manage customers</small
+              >
+            </div>
+          </a>
+          <a
+            routerLink="/billing"
+            class="list-group-item list-group-item-action d-flex align-items-center"
+          >
+            <i class="bi bi-receipt text-success me-3 fs-5"></i>
+            <div>
+              <strong>Billing Portal</strong>
+              <small class="d-block text-muted">Invoices & payments</small>
+            </div>
+          </a>
+          <a
+            routerLink="/reports"
+            class="list-group-item list-group-item-action d-flex align-items-center"
+          >
+            <i class="bi bi-bar-chart-fill text-info me-3 fs-5"></i>
+            <div>
+              <strong>Reports</strong>
+              <small class="d-block text-muted">Analytics & insights</small>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Activity -->
+  <div class="col-12 col-md-8">
+    <div class="card shadow-sm rounded-3 border-0">
+      <div
+        class="card-header bg-transparent fw-semibold d-flex justify-content-between align-items-center"
+      >
+        <span><i class="bi bi-clock-history me-2"></i>Recent Activity</span>
+        <a routerLink="/reports" class="btn btn-sm btn-outline-primary"
+          >View All</a
+        >
+      </div>
+      <div class="table-responsive">
+        <table class="table table-hover mb-0">
+          <thead class="table-light">
+            <tr>
+              <th scope="col">Action</th>
+              <th scope="col">User</th>
+              <th scope="col">Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (activity of recentActivity; track $index) {
+            <tr>
+              <td>
+                <span
+                  class="badge rounded-pill me-2"
+                  [class]="'bg-' + (activity.type === 'customer' ? 'primary' : activity.type === 'billing' ? 'success' : 'info') + ' bg-opacity-10 text-' + (activity.type === 'customer' ? 'primary' : activity.type === 'billing' ? 'success' : 'info')"
+                >
+                  {{ activity.type }}
+                </span>
+                {{ activity.action }}
+              </td>
+              <td>{{ activity.user }}</td>
+              <td class="text-muted small">{{ activity.time }}</td>
+            </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

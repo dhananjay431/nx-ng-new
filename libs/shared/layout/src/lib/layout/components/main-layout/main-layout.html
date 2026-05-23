@@ -1,0 +1,18 @@
+<div class="app-wrapper">
+  <!-- Top Menubar -->
+  <lib-top-menubar></lib-top-menubar>
+
+  <!-- Sidebar -->
+  <lib-sidebar></lib-sidebar>
+
+  <!-- Main Content Area -->
+  <main
+    class="main-content"
+    [class.sidebar-open]="isSidebarOpen()"
+    [class.sidebar-closed]="!isSidebarOpen()"
+  >
+    <div class="container-fluid p-4">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+</div>

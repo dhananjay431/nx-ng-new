@@ -1,0 +1,33 @@
+.top-navbar {
+  background: var(--bs-body-bg);
+  border-bottom: 1px solid var(--bs-border-color);
+  z-index: 1030;
+}
+
+.sidebar-toggle {
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+
+  &:hover {
+    background: var(--bs-tertiary-bg);
+  }
+}
+
+.theme-toggle {
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+
+  &:hover {
+    background: var(--bs-tertiary-bg);
+  }
+}
+
+.navbar-brand {
+  color: var(--bs-body-color);
+
+  &:hover {
+    color: var(--bs-primary);
+  }
+}

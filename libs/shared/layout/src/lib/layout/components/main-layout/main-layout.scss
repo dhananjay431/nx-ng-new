@@ -1,0 +1,21 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  margin-top: 56px; // navbar height
+  margin-left: 250px; // sidebar width
+  transition: margin-left 0.3s ease;
+  min-height: calc(100vh - 56px);
+  background: var(--bs-body-bg);
+
+  &.sidebar-closed {
+    margin-left: 0;
+
+    @media (min-width: 768px) {
+      margin-left: 64px; // collapsed sidebar width
+    }
+  }
+}
