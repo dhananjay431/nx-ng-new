@@ -25,14 +25,11 @@
   },
   "shared": [
     {
-      "singleton": true,
-      "requiredVersion": "~21.2.0",
-      "shareScope": "default",
-      "strictVersion": true,
+      "id": "shell:@angular/common/http",
       "name": "@angular/common/http",
       "version": "21.2.14",
-      "eager": false,
-      "id": "shell:@angular/common/http",
+      "singleton": true,
+      "requiredVersion": "~21.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -45,19 +42,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "~21.2.0",
-      "shareScope": "default",
-      "strictVersion": true,
+      "id": "shell:@angular/common",
       "name": "@angular/common",
       "version": "21.2.14",
-      "eager": false,
-      "id": "shell:@angular/common",
+      "singleton": true,
+      "requiredVersion": "~21.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -70,19 +62,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "~21.2.0",
-      "shareScope": "default",
-      "strictVersion": true,
+      "id": "shell:@angular/core/primitives/di",
       "name": "@angular/core/primitives/di",
       "version": "21.2.14",
-      "eager": false,
-      "id": "shell:@angular/core/primitives/di",
+      "singleton": true,
+      "requiredVersion": "~21.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -95,19 +82,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "~21.2.0",
-      "shareScope": "default",
-      "strictVersion": true,
+      "id": "shell:@angular/core/primitives/signals",
       "name": "@angular/core/primitives/signals",
       "version": "21.2.14",
-      "eager": false,
-      "id": "shell:@angular/core/primitives/signals",
+      "singleton": true,
+      "requiredVersion": "~21.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -120,19 +102,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "~21.2.0",
-      "shareScope": "default",
-      "strictVersion": true,
+      "id": "shell:@angular/core",
       "name": "@angular/core",
       "version": "21.2.14",
-      "eager": false,
-      "id": "shell:@angular/core",
+      "singleton": true,
+      "requiredVersion": "~21.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -145,19 +122,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "~21.2.0",
-      "shareScope": "default",
-      "strictVersion": true,
+      "id": "shell:@angular/forms",
       "name": "@angular/forms",
       "version": "21.2.14",
-      "eager": false,
-      "id": "shell:@angular/forms",
+      "singleton": true,
+      "requiredVersion": "~21.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -170,19 +142,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "~21.2.0",
-      "shareScope": "default",
-      "strictVersion": true,
+      "id": "shell:@angular/platform-browser",
       "name": "@angular/platform-browser",
       "version": "21.2.14",
-      "eager": false,
-      "id": "shell:@angular/platform-browser",
+      "singleton": true,
+      "requiredVersion": "~21.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -195,19 +162,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "~21.2.0",
-      "shareScope": "default",
-      "strictVersion": true,
+      "id": "shell:@angular/router",
       "name": "@angular/router",
       "version": "21.2.14",
-      "eager": false,
-      "id": "shell:@angular/router",
+      "singleton": true,
+      "requiredVersion": "~21.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -220,18 +182,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "^0.0.0",
-      "shareScope": "default",
-      "eager": false,
+      "id": "shell:@ng20/auth",
       "name": "@ng20/auth",
       "version": "0.0.0",
-      "id": "shell:@ng20/auth",
+      "singleton": true,
+      "requiredVersion": "^0.0.0",
       "assets": {
         "js": {
           "async": [],
@@ -244,18 +202,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "^0.0.0",
-      "shareScope": "default",
-      "eager": false,
+      "id": "shell:@ng20/layout",
       "name": "@ng20/layout",
       "version": "0.0.0",
-      "id": "shell:@ng20/layout",
+      "singleton": true,
+      "requiredVersion": "^0.0.0",
       "assets": {
         "js": {
           "async": [],
@@ -268,18 +222,14 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     },
     {
-      "singleton": true,
-      "requiredVersion": "^0.0.0",
-      "shareScope": "default",
-      "eager": false,
+      "id": "shell:@ng20/utils",
       "name": "@ng20/utils",
       "version": "0.0.0",
-      "id": "shell:@ng20/utils",
+      "singleton": true,
+      "requiredVersion": "^0.0.0",
       "assets": {
         "js": {
           "async": [],
@@ -292,41 +242,27 @@
           "sync": []
         }
       },
-      "usedIn": [],
-      "usedExports": [],
       "fallback": ""
     }
   ],
   "remotes": [
     {
+      "federationContainerName": "https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/customer/remoteEntry.mjs",
+      "moduleName": "Routes",
       "alias": "customer",
-      "consumingFederationContainerName": "shell",
-      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
-      "moduleName": "Routes",
-      "usedIn": [
-        "consume shared module (default) customer/Routes@* (strict) (fallback: apps/customer/src/app/remote-entry/entry.routes.ts)"
-      ],
-      "version": "*"
+      "entry": "*"
     },
     {
+      "federationContainerName": "https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/billing/remoteEntry.mjs",
+      "moduleName": "Routes",
       "alias": "billing",
-      "consumingFederationContainerName": "shell",
-      "federationContainerName": "http://localhost:4202/remoteEntry.mjs",
-      "moduleName": "Routes",
-      "usedIn": [
-        "consume shared module (default) billing/Routes@* (strict) (fallback: apps/billing/src/app/remote-entry/entry.routes.ts)"
-      ],
-      "version": "*"
+      "entry": "*"
     },
     {
-      "alias": "reports",
-      "consumingFederationContainerName": "shell",
-      "federationContainerName": "http://localhost:4203/remoteEntry.mjs",
+      "federationContainerName": "https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/reports/remoteEntry.mjs",
       "moduleName": "Routes",
-      "usedIn": [
-        "consume shared module (default) reports/Routes@* (strict) (fallback: apps/reports/src/app/remote-entry/entry.routes.ts)"
-      ],
-      "version": "*"
+      "alias": "reports",
+      "entry": "*"
     }
   ],
   "exposes": []

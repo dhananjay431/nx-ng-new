@@ -74,7 +74,7 @@
         "js": {
           "async": [],
           "sync": [
-            "common.a37607a8a20859a9.js"
+            "common.51cac11250c610d1.js"
           ]
         },
         "css": {
@@ -94,7 +94,7 @@
         "js": {
           "async": [],
           "sync": [
-            "common.a37607a8a20859a9.js"
+            "common.51cac11250c610d1.js"
           ]
         },
         "css": {
@@ -173,10 +173,11 @@
       "assets": {
         "js": {
           "sync": [
-            "778.1ec38b07781d2c18.js",
-            "__federation_expose_Routes.c31b4cc679ce8398.js"
+            "__federation_expose_Routes.3027818ef5de5f71.js"
           ],
-          "async": []
+          "async": [
+            "203.dabf080ce1dda546.js"
+          ]
         },
         "css": {
           "sync": [],

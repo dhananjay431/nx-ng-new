@@ -10,18 +10,9 @@ export default withModuleFederation(
   {
     ...config,
     remotes: [
-      [
-        'customer',
-        'https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/customer/',
-      ],
-      [
-        'billing',
-        'https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/billing/',
-      ],
-      [
-        'reports',
-        'https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/reports/',
-      ],
+      ['customer', 'http://localhost:4201'],
+      ['billing', 'http://localhost:4202'],
+      ['reports', 'http://localhost:4203'],
     ],
   },
   { dts: false },

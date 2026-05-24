@@ -5692,7 +5692,7 @@ if (!__webpack_require__.federation.instance) {
 
 var moduleMap = {
 	"./Routes": () => {
-		return Promise.all(/* __federation_expose_Routes */[__webpack_require__.e(209), __webpack_require__.e(443), __webpack_require__.e(286)]).then(() => (() => ((__webpack_require__(8992)))));
+		return Promise.all(/* __federation_expose_Routes */[__webpack_require__.e(76), __webpack_require__.e(286)]).then(() => (() => ((__webpack_require__(8992)))));
 	}
 };
 var get = (module, getScope) => {
@@ -5965,7 +5965,7 @@ function _asyncToGenerator(n) {
 /******/ 	// This function allow to reference async chunks
 /******/ 	__webpack_require__.u = (chunkId) => {
 /******/ 		// return url for filenames based on template
-/******/ 		return "" + ({"76":"common","286":"__federation_expose_Routes"}[chunkId] || chunkId) + "." + {"76":"b4324b5fbe6d88bf","127":"5c2ff91b76c73aee","203":"56ca7a5b3e5ecb0f","286":"2cd77dad2adb47cf","421":"05a9a50b83c1ebd0","443":"0913c3498c35a40f","499":"9c5f56dae3e3a606","707":"bbdf7a19509d5eec","724":"20761413cc1b8481"}[chunkId] + ".js";
+/******/ 		return "" + ({"76":"common","286":"__federation_expose_Routes"}[chunkId] || chunkId) + "." + {"76":"467a78cd682b3d56","127":"5c2ff91b76c73aee","203":"56ca7a5b3e5ecb0f","286":"ab39ea2726564a2d","421":"05a9a50b83c1ebd0","499":"9c5f56dae3e3a606","707":"bbdf7a19509d5eec","724":"20761413cc1b8481"}[chunkId] + ".js";
 /******/ 	};
 /******/ })();
 /******/ 
@@ -6039,6 +6039,11 @@ function _asyncToGenerator(n) {
 /******/ 	};
 /******/ })();
 /******/ 
+/******/ /* webpack/runtime/runtimeId */
+/******/ (() => {
+/******/ 	__webpack_require__.j = 659;
+/******/ })();
+/******/ 
 /******/ /* webpack/runtime/sharing */
 /******/ (() => {
 /******/ 	__webpack_require__.S = {};
@@ -6086,7 +6091,7 @@ function _asyncToGenerator(n) {
 /******/ 				register("@angular/core/primitives/signals", "21.2.14", () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(8478))))));
 /******/ 				register("@angular/core", "21.2.14", () => (Promise.all([__webpack_require__.e(76), __webpack_require__.e(724)]).then(() => (() => (__webpack_require__(1724))))));
 /******/ 				register("@angular/platform-browser", "21.2.14", () => (Promise.all([__webpack_require__.e(699), __webpack_require__.e(209), __webpack_require__.e(707)]).then(() => (() => (__webpack_require__(1707))))));
-/******/ 				register("@angular/router", "21.2.14", () => (Promise.all([__webpack_require__.e(699), __webpack_require__.e(203), __webpack_require__.e(209), __webpack_require__.e(499), __webpack_require__.e(442)]).then(() => (() => (__webpack_require__(499))))));
+/******/ 				register("@angular/router", "21.2.14", () => (Promise.all([__webpack_require__.e(699), __webpack_require__.e(203), __webpack_require__.e(209), __webpack_require__.e(442), __webpack_require__.e(499)]).then(() => (() => (__webpack_require__(499))))));
 /******/ 			}
 /******/ 			break;
 /******/ 		}
@@ -6144,7 +6149,7 @@ function _asyncToGenerator(n) {
 /******/ 			scope: ["default"],
 /******/ 			shareConfig: {"eager":false,"requiredVersion":"~21.2.0","strictVersion":true,"singleton":true,"layer":null},
 /******/ 		},],	"@angular/router": [{	version: "21.2.14",
-/******/ 			get: () => (Promise.all([__webpack_require__.e(699), __webpack_require__.e(203), __webpack_require__.e(209), __webpack_require__.e(499), __webpack_require__.e(442)]).then(() => (() => (__webpack_require__(499))))),
+/******/ 			get: () => (Promise.all([__webpack_require__.e(699), __webpack_require__.e(203), __webpack_require__.e(209), __webpack_require__.e(442), __webpack_require__.e(499)]).then(() => (() => (__webpack_require__(499))))),
 /******/ 			scope: ["default"],
 /******/ 			shareConfig: {"eager":false,"requiredVersion":"~21.2.0","strictVersion":true,"singleton":true,"layer":null},
 /******/ 		},],}
@@ -6176,15 +6181,15 @@ function _asyncToGenerator(n) {
 /******/ (() => {
 /******/ 	var installedModules = {};
 /******/ 	__webpack_require__.consumesLoadingData.moduleIdToConsumeDataMapping = {
-/******/ 		4209: {
-/******/ 			fallback: () => (__webpack_require__.e(421).then(() => (() => (__webpack_require__(6421))))),
+/******/ 		3429: {
+/******/ 			fallback: () => (Promise.all([__webpack_require__.e(203), __webpack_require__.e(209), __webpack_require__.e(442), __webpack_require__.e(499)]).then(() => (() => (__webpack_require__(499))))),
 /******/ 			shareScope: ["default"],
 /******/ 			singleton: true,
 /******/ 			requiredVersion: "~21.2.0",
 /******/ 			strictVersion: true,
 /******/ 			eager: false,
 /******/ 			layer: undefined,
-/******/ 			shareKey: "@angular/common",
+/******/ 			shareKey: "@angular/router",
 /******/ 	
 /******/ 		},
 /******/ 		2699: {
@@ -6220,6 +6225,17 @@ function _asyncToGenerator(n) {
 /******/ 			shareKey: "@angular/core/primitives/di",
 /******/ 	
 /******/ 		},
+/******/ 		4209: {
+/******/ 			fallback: () => (__webpack_require__.e(421).then(() => (() => (__webpack_require__(6421))))),
+/******/ 			shareScope: ["default"],
+/******/ 			singleton: true,
+/******/ 			requiredVersion: "~21.2.0",
+/******/ 			strictVersion: true,
+/******/ 			eager: false,
+/******/ 			layer: undefined,
+/******/ 			shareKey: "@angular/common",
+/******/ 	
+/******/ 		},
 /******/ 		9991: {
 /******/ 			fallback: () => (Promise.all([__webpack_require__.e(203), __webpack_require__.e(127)]).then(() => (() => (__webpack_require__(6127))))),
 /******/ 			shareScope: ["default"],
@@ -6232,7 +6248,7 @@ function _asyncToGenerator(n) {
 /******/ 	
 /******/ 		},
 /******/ 		5442: {
-/******/ 			fallback: () => (__webpack_require__.e(707).then(() => (() => (__webpack_require__(1707))))),
+/******/ 			fallback: () => (Promise.all([__webpack_require__.e(209), __webpack_require__.e(707)]).then(() => (() => (__webpack_require__(1707))))),
 /******/ 			shareScope: ["default"],
 /******/ 			singleton: true,
 /******/ 			requiredVersion: "~21.2.0",
@@ -6250,6 +6266,7 @@ function _asyncToGenerator(n) {
 /******/ 			4209
 /******/ 		],
 /******/ 		"286": [
+/******/ 			3429,
 /******/ 			2699
 /******/ 		],
 /******/ 		"442": [

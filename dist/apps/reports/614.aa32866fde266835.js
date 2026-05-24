@@ -1,1 +1,0 @@
-(self.webpackChunkreports=self.webpackChunkreports||[]).push([[614],{6614(l,d,o){var r=o(5442),t=o(2699),e=o(3429);const n=[{path:"",loadChildren:()=>o.e(409).then(o.bind(o,4409)).then(s=>s.remoteRoutes)}],p={providers:[(0,t.provideBrowserGlobalErrorListeners)(),(0,e.provideRouter)(n)]};var a=o(4026);(0,r.bootstrapApplication)(a.b,p).catch(s=>console.error(s))}}]);

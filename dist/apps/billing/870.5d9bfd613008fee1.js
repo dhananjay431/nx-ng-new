@@ -1,1 +1,0 @@
-(self.webpackChunkbilling=self.webpackChunkbilling||[]).push([[870],{2870(a,d,o){var t=o(5442),n=o(2699),r=o(3429);const e=[{path:"",loadChildren:()=>o.e(385).then(o.bind(o,5385)).then(s=>s.remoteRoutes)}],l={providers:[(0,n.provideBrowserGlobalErrorListeners)(),(0,r.provideRouter)(e)]};var p=o(8778);(0,t.bootstrapApplication)(p.b,l).catch(s=>console.error(s))}}]);
