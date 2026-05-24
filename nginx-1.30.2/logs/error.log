@@ -1,0 +1,46 @@
+2026/05/23 17:56:27 [error] 20148#29760: *20 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:56:27 [error] 20148#29760: *21 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:58:46 [error] 21984#10412: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:58:46 [error] 21984#10412: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:58:48 [error] 21984#10412: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:58:48 [error] 21984#10412: *4 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:58:49 [error] 21984#10412: *5 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:58:49 [error] 21984#10412: *6 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:58:49 [error] 21984#10412: *7 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:58:50 [error] 21984#10412: *8 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4201"
+2026/05/23 17:58:54 [error] 21984#10412: *9 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4202"
+2026/05/23 17:58:54 [error] 21984#10412: *10 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4202"
+2026/05/23 18:00:13 [error] 21984#10412: *12 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:01:39 [error] 20204#22520: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /remoteEntry.mjs HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:01:39 [error] 20204#22520: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:01:42 [error] 20204#22520: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:01:42 [error] 20204#22520: *4 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:01:45 [error] 20204#22520: *5 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:02:16 [error] 1804#23332: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:02:18 [error] 1804#23332: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:02:19 [error] 1804#23332: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:02:19 [error] 1804#23332: *4 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:02:19 [error] 1804#23332: *5 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 18:02:19 [error] 1804#23332: *6 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4201"
+2026/05/23 20:12:19 [notice] 8628#14644: signal process started
+2026/05/23 20:12:41 [error] 4036#6592: *20 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:12:42 [error] 4036#6592: *20 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:12:44 [error] 4036#6592: *20 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:13:06 [error] 10300#13952: *1 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:13:08 [error] 10300#13952: *1 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:13:09 [error] 10300#13952: *1 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:13:44 [error] 10300#13952: *1 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:14:02 [error] 10300#13952: *1 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:14:02 [error] 10300#13952: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:14:33 [error] 10300#13952: *10 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:14:33 [error] 10300#13952: *10 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:14:33 [error] 10300#13952: *11 directory index of "D:/ng20/dist/apps/shell/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:14:33 [error] 10300#13952: *11 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: localhost, request: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1", host: "localhost:4200"
+2026/05/23 20:52:49 [notice] 14840#13268: signal process started
+2026/05/23 20:52:49 [error] 14840#13268: OpenEvent("Global\ngx_stop_3236") failed (2: The system cannot find the file specified)
+2026/05/23 20:53:29 [notice] 17464#14584: signal process started
+2026/05/23 20:53:29 [error] 17464#14584: OpenEvent("Global\ngx_quit_3236") failed (2: The system cannot find the file specified)
+2026/05/23 20:54:18 [notice] 8564#17500: signal process started
+2026/05/23 20:54:18 [error] 8564#17500: OpenEvent("Global\ngx_quit_3236") failed (2: The system cannot find the file specified)
+2026/05/24 13:23:14 [notice] 15556#19444: signal process started
+2026/05/24 13:23:14 [error] 15556#19444: OpenEvent("Global\ngx_reload_4872") failed (2: The system cannot find the file specified)
