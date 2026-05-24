@@ -37,7 +37,7 @@
         "js": {
           "async": [],
           "sync": [
-            "default-node_modules_angular_common_fesm2022_http_mjs.js"
+            "127.ea1015ada4b01dd9.js"
           ]
         },
         "css": {
@@ -62,7 +62,7 @@
         "js": {
           "async": [],
           "sync": [
-            "default-node_modules_angular_common_fesm2022_common_mjs.js"
+            "421.7a70fa72ba02b370.js"
           ]
         },
         "css": {
@@ -87,7 +87,7 @@
         "js": {
           "async": [],
           "sync": [
-            "common.js"
+            "common.009f98780c4cbd7b.js"
           ]
         },
         "css": {
@@ -112,7 +112,7 @@
         "js": {
           "async": [],
           "sync": [
-            "common.js"
+            "common.009f98780c4cbd7b.js"
           ]
         },
         "css": {
@@ -137,7 +137,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_angular_core_fesm2022_core_mjs.js"
+            "724.4119be58e0dbf629.js"
           ]
         },
         "css": {
@@ -162,7 +162,7 @@
         "js": {
           "async": [],
           "sync": [
-            "default-node_modules_angular_platform-browser_fesm2022_platform-browser_mjs.js"
+            "707.ab4b353583aa8b4b.js"
           ]
         },
         "css": {
@@ -187,7 +187,7 @@
         "js": {
           "async": [],
           "sync": [
-            "default-node_modules_angular_router_fesm2022_router_mjs.js"
+            "499.9bc5d3e9a7bca19f.js"
           ]
         },
         "css": {
@@ -210,7 +210,10 @@
       "file": "apps\\reports\\src\\app\\remote-entry\\entry.routes.ts",
       "assets": {
         "js": {
-          "sync": [],
+          "sync": [
+            "26.c2526a821b79afe9.js",
+            "__federation_expose_Routes.dcbb8cadd57a7483.js"
+          ],
           "async": []
         },
         "css": {

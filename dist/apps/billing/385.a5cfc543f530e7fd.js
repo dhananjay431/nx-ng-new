@@ -1,0 +1,1 @@
+(self.webpackChunkbilling=self.webpackChunkbilling||[]).push([[385],{5385(l,n,e){e.d(n,{remoteRoutes:()=>t});const t=[{path:"",component:e(8778).b}]}}]);

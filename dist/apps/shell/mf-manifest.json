@@ -247,19 +247,19 @@
   ],
   "remotes": [
     {
-      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
+      "federationContainerName": "https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/customer/remoteEntry.mjs",
       "moduleName": "Routes",
       "alias": "customer",
       "entry": "*"
     },
     {
-      "federationContainerName": "http://localhost:4202/remoteEntry.mjs",
+      "federationContainerName": "https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/billing/remoteEntry.mjs",
       "moduleName": "Routes",
       "alias": "billing",
       "entry": "*"
     },
     {
-      "federationContainerName": "http://localhost:4203/remoteEntry.mjs",
+      "federationContainerName": "https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/reports/remoteEntry.mjs",
       "moduleName": "Routes",
       "alias": "reports",
       "entry": "*"

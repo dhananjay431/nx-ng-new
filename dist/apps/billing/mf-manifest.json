@@ -34,7 +34,7 @@
         "js": {
           "async": [],
           "sync": [
-            "default-node_modules_angular_common_fesm2022_http_mjs.js"
+            "127.8a89faab7b8ab407.js"
           ]
         },
         "css": {
@@ -54,7 +54,7 @@
         "js": {
           "async": [],
           "sync": [
-            "default-node_modules_angular_common_fesm2022_common_mjs.js"
+            "421.f0c44f4a3a2dff46.js"
           ]
         },
         "css": {
@@ -74,7 +74,7 @@
         "js": {
           "async": [],
           "sync": [
-            "common.js"
+            "common.a37607a8a20859a9.js"
           ]
         },
         "css": {
@@ -94,7 +94,7 @@
         "js": {
           "async": [],
           "sync": [
-            "common.js"
+            "common.a37607a8a20859a9.js"
           ]
         },
         "css": {
@@ -114,7 +114,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_angular_core_fesm2022_core_mjs.js"
+            "724.fe883cea1913d47c.js"
           ]
         },
         "css": {
@@ -134,7 +134,7 @@
         "js": {
           "async": [],
           "sync": [
-            "default-node_modules_angular_platform-browser_fesm2022_platform-browser_mjs.js"
+            "707.de673e98eee4cd21.js"
           ]
         },
         "css": {
@@ -154,7 +154,7 @@
         "js": {
           "async": [],
           "sync": [
-            "default-node_modules_angular_router_fesm2022_router_mjs.js"
+            "499.1ead37a6c0ca1b37.js"
           ]
         },
         "css": {
@@ -172,7 +172,10 @@
       "name": "Routes",
       "assets": {
         "js": {
-          "sync": [],
+          "sync": [
+            "778.1ec38b07781d2c18.js",
+            "__federation_expose_Routes.c31b4cc679ce8398.js"
+          ],
           "async": []
         },
         "css": {

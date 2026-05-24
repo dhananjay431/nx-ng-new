@@ -301,7 +301,7 @@
     {
       "alias": "customer",
       "consumingFederationContainerName": "shell",
-      "federationContainerName": "http://localhost:4201/remoteEntry.mjs",
+      "federationContainerName": "https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/customer/remoteEntry.mjs",
       "moduleName": "Routes",
       "usedIn": [
         "consume shared module (default) customer/Routes@* (strict) (fallback: apps/customer/src/app/remote-entry/entry.routes.ts)"
@@ -311,7 +311,7 @@
     {
       "alias": "billing",
       "consumingFederationContainerName": "shell",
-      "federationContainerName": "http://localhost:4202/remoteEntry.mjs",
+      "federationContainerName": "https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/billing/remoteEntry.mjs",
       "moduleName": "Routes",
       "usedIn": [
         "consume shared module (default) billing/Routes@* (strict) (fallback: apps/billing/src/app/remote-entry/entry.routes.ts)"
@@ -321,7 +321,7 @@
     {
       "alias": "reports",
       "consumingFederationContainerName": "shell",
-      "federationContainerName": "http://localhost:4203/remoteEntry.mjs",
+      "federationContainerName": "https://code.dhananjaypro.in/dhananjay431/nx-ng-new/main/dist/apps/reports/remoteEntry.mjs",
       "moduleName": "Routes",
       "usedIn": [
         "consume shared module (default) reports/Routes@* (strict) (fallback: apps/reports/src/app/remote-entry/entry.routes.ts)"
